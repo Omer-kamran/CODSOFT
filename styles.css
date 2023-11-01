@@ -1,0 +1,149 @@
+
+html{
+    font-size: 100%;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.3;
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:grid;
+    padding: 0px;
+}
+
+.head{
+    height: 1.5in;
+    background-image: url(./top.avif);
+
+}
+.topnav {
+    overflow: hidden;
+    
+    padding-left: 20px;
+  }
+  
+  .topnav a {
+    float: left;
+    padding: 14px 16px;
+    color: white;
+  }
+  .topnav-right a{
+    border: 1px  solid white; 
+    margin-top: .5rem;
+  
+
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(95, 92, 88);
+    color: black;
+  }
+  
+  .topnav a.active {
+    /* background-color:  */
+    color: white;
+  }
+  
+  .topnav-right {
+    color: beige;
+    float: right;
+    display: grid;
+    display: inline;
+    margin-right: 2rem;
+    /* border: 1px  solid white;  */
+    margin-right: 0rem;
+    padding-left: 10px;
+
+  }
+ 
+
+
+.section {
+    padding: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: #0b1523;
+    color:beige;
+    text-align: center;
+    padding: 10px;
+    background-image: url(./top.avif);
+}
+
+.parallax-title.text-capitalize {
+    text-transform: capitalize;
+}
+.parallax-title {
+    display: inline-block;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 0 20px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+    border-bottom: 4px double #ccc;
+    text-align: center;
+}
+.parallax-title:after {
+    background-color: whitesmoke;
+}
+.parallax-title:after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    bottom: -8px;
+    left: 0;
+}
+.parallax-title:before {
+    border-color: beige;
+}
+.parallax-title:before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    border-bottom: 4px solid;
+    color:  beige;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-width:before {
+    width: 70px;
+}
+
+.image{
+    width: 350px;
+    height: 1.2in;
+    padding-right: 10px;
+}
+
+#unique{
+    font-size: 350%;
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+.background{
+    background-color: #171e2a;
+
+}
+#ContactUs ul{
+    padding: 0;
+}
+
